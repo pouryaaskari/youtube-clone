@@ -1,0 +1,400 @@
+
+  .SUBSCRIBE{
+    background-color: rgb(194, 1, 1);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+  .SUBSCRIBE:hover{
+opacity: 0.7;
+  }
+  .SUBSCRIBE:active{
+opacity: 0.5;
+  }
+
+
+  .JOIN{
+    background-color: white;
+    color: rgb(74, 80, 249);
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s ;
+  }
+  .JOIN:hover{
+    background-color: rgb(74, 80, 249);
+    color: white;
+  }
+  .JOIN:active{
+opacity: 0.7;
+  }
+
+
+  .Tweet{
+    background-color: rgb(74, 115, 249);
+    color: white;
+    height: 36px;
+    width: 74px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+  .Tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .Uber{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 108px;
+    border: none;
+    margin-left: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .Uber:hover{
+    opacity: 0.7;
+  }
+
+  .Amazon{
+    background-color: rgb(243, 218, 98);
+    height: 36px;
+    width: 200px;
+    border: none;
+    border-radius: 18px;
+    margin-top: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .Amazon:hover{
+    background-color: yellow;
+  }
+  .Amazon:active{
+    background-color: rgb(195, 185, 4);
+  }
+
+  .Github{
+    background-color: rgb(46, 164, 79);
+    height: 36px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+  .Github:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .Bootstrap{
+    background-color: rgb(121, 82, 179);
+    height: 36px;
+    width: 108px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+    transition: background-color 0,15s;
+  }
+  .Bootstrap:hover{
+    background-color: rgb(127, 16, 127);
+  }
+
+  .Download{
+    height: 36px;
+    width: 108px;
+    border-color:rgb(108, 117, 125);;
+    color:rgb(108, 117, 125);
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .Download:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
+  .Linkedin{
+    background-color: rgb(10, 102, 194);
+    height: 36px;
+    width: 200px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  .Save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    height: 36px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 18px;
+    transition: border-width 0,15s;
+  }
+  .Save:hover{
+    border-width: 3px;
+  }
+
+  .stock{
+    color: rgb(0, 118, 0);
+  }
+  .Buy{
+    height: 36px;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(255, 164, 28);
+  transition: 0.15s;
+  cursor: pointer;
+  }
+  .Buy:active{
+    opacity: 0.7;
+  }
+  
+  .Back, .Next{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+.Stretch{
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: padding-left, padding-right, padding-top,
+  padding-bottom 1s;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.Stretch:hover{
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.Shadow{
+  background-color: green;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+.Shadow:active{
+  margin-top: 5px;
+  margin-left: 2px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.One, .Two, .Three{
+  background-color: green;
+  color: white;
+  border: none;
+  transition: padding 2s, merging  2s;
+  cursor: pointer;
+}
+
+
+.hover:hover {
+  margin: 8px transition;
+  padding: 10px;
+  transition: padding 2s, merging  2s;
+}
+
+.Tahoma{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Get-started{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.Title{
+font-family: verdana;
+font-weight: bold;
+font-size: 30px;
+margin-bottom: 0;
+}
+.Pro{
+  font-family: verdana;
+  font-size: 22px;
+  color: grey;
+  margin-top: 0;
+}
+.Info-text{
+  font-family: verdana;
+  width: 280px;
+}
+.Deals{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.Sales{
+  font-family: arial;
+  font-style: italic;
+  color: red;
+  margin-top: 0;
+}
+.Apple{
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.Apple2{
+  font-family: arial;
+  text-align: center;
+  margin-top: 20px;
+}
+.Apple3{
+  font-family: arial;
+  color: rgb(103, 146, 196); 
+  text-align: center;
+}
+.Macbook1{
+  font-family: arial;
+  color: orange;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+.Macbook2{
+  font-family: arial;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.Macbook3{
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.Macbook4{
+  text-align: center;
+  font-family: arial;
+  color: grey;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.buymacbook{
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(67, 67, 255);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  padding: 8px 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Codecamp1{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.Code1{
+  font-family: arial;
+  color: grey;
+  font-size: 17px;
+}
+.Code11{
+color: gray;
+font-family: arial;
+margin-left: 1px;
+font-size: 17px;
+
+}
+.Codecamp2{
+  font-family: arial;
+  margin-top: 0px;
+  line-height: 20px;
+}
+.Codecamp3{
+  font-family: arial;
+
+}
+.Code3{
+  color: lightblue;
+  margin-right: 3px;
+}
+.usd{
+  font-family: arial;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 8px;
+}
+.usd1{
+  font-family: arial;
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.usd2{
+  font-family: arial;
+  color: green;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.usd3{
+  font-family: Arial;
+  color: grey;
+  margin-top: 8px;
+}
+.usd4{
+  font-family: arial;
+  color: red;
+}
+.tesla{
+  font-family: Roboto;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.tesla1{
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+.tesla2{
+text-decoration: underline;
+}
